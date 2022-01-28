@@ -16,6 +16,13 @@ public class LoggingController {
         return String.format("Project Version : %s",version);
     }
 
+    @GetMapping("/jemin")
+    public String jemin()
+    {
+        return "jemin is success!!";
+    }
+
+
     @GetMapping("/health")
     public String checkHealth()
     {
