@@ -8,7 +8,7 @@ on:
 
 env: 
   S3_BUCKET_NAME: logging-system-deploy-jm
-  PROJECT_NAME: logging-j
+  PROJECT_NAME: logging-jm
 
 jobs:
   build:
